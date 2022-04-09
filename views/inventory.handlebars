@@ -24,7 +24,7 @@
              <div>
             <label for="missed"> Select Location: </label>
             <input list="locations" name="location" id="location">
-            {{!-- will pull from API to fill with #each --}}
+         
             <datalist id="locations">
                 <option value="Partydreams Indianapolis">
                 <option value="Partydreams Florida">
@@ -35,7 +35,7 @@
         <div>
             <label for="missed"> Select the Collection or Item Inquired: </label>
             <input list="misses" name="missed" id="missed">
-            {{!-- will pull from API to fill with #each --}}
+      
             <datalist id="misses">
                 <option value="Black Collection">
                 <option value="Classic Collection">
@@ -47,7 +47,7 @@
         <div>
             <label for="category">Select a item size:</label>
             <input list="categories" name="category" id="category">
-            {{!-- Current item sizes, leave this hardcoded --}}
+         
             <datalist id="categories">
                 <option value="Package">
                 <option value="Add on">
@@ -82,7 +82,7 @@
                     Sort
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Name</a>
+                        <a class="dropdown-item" href="#">Location</a>
                         <a class="dropdown-item" href="#">Rating: Highest to Lowest</a>
                         <a class="dropdown-item" href="#">Rating: Lowest to Highest</a>
                     </div>
