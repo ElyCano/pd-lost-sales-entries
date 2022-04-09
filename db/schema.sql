@@ -1,3 +1,3 @@
-DROP DATABASE IF EXISTS missedbooking_app_db;
+DROP DATABASE IF EXISTS lost_booking_app_db;
 
-CREATE DATABASE missedbooking_app_db;
+CREATE DATABASE lost_booking_app_db;
