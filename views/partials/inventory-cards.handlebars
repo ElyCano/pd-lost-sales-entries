@@ -1,0 +1,34 @@
+<li class="row justify-content-center m-3">
+  <div class="col-md-9">
+    <div class="card shadow bg-white rounded">
+      <div class="card-header">
+        <div class="row">
+          <span class="col-4 font-weight-bold"><a
+              href="/inventory/missed/{{id}}"
+            ><i class="fas fa-bullhorn fa-lg"></i> {{name}}</a></span>
+          <span class="col-4 font-italic"></span>
+          <span class="col-4 text-right font-weight-bold">{{vote_count}}
+            {{format_plural "vote" vote_count}}</span>
+        </div>
+      </div>
+      <div class="card-body row">
+        <img
+          id="missed-pic"
+          class="rounded"
+          src="/images/{{name}}.jpg"
+          alt="{{name}}"
+        />
+        <div class="col-7">
+          <p>Owner's Franchise User Name: {{user.username}}</p>
+          <p>Location: {{pd_location}}</p>
+          <p>Item Category: {{item_category}}</p>
+          <p>Wedding Date: {{wedding_date}}</p>
+          <p>Platform: {{platform_place}}</p>
+          <p>Notes: {{notes}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+
+<script src="/javascript/uplike.js"></script>

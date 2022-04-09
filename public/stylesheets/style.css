@@ -1,0 +1,31 @@
+header {
+  text-align: center;
+}
+
+main {
+  background-color: #49111c;
+  padding: 0 0 15px 0;
+}
+
+footer {
+  text-align: center;
+  text-decoration: none;
+}
+
+.comment-body {
+  height: 120px;
+  width: 590px;
+}
+
+#missed-pic {
+  width: 200px;
+  height: 300px;
+}
+.inv-head {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

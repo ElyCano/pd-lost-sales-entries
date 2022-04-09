@@ -1,0 +1,35 @@
+{{!-- <article>
+  <a href="/dashboard"> &larr; Back to dashboard</a>
+  <h2>
+    Edit Missed
+  </h2>
+  <form class="edit-missed-form">
+    <div>
+      <input name="missed-title" type="text" value="{{missed.title}}" />
+      <span>({{format_url missed.missed_url}})</span>
+    </div>
+    <div>
+      {{missed.vote_count}} {{format_plural "point" missed.vote_count}} by you on {{format_date missed.created_at}}
+      |
+      <a href="/missed/{{missed.id}}">{{missed.comments.length}} {{format_plural "comment" missed.comments.length}}</a>
+    </div>
+    <button type="submit">Save missed</button>
+    <button type="button" class="delete-missed-btn">Delete missed</button>
+  </form>
+</article>
+
+<form class="comment-form">
+  <div>
+    <textarea name="comment-body"></textarea>
+  </div>
+
+  <div>
+    <button type="submit">add comment</button>
+  </div>
+</form>
+
+{{> comments missed.comments}}
+
+<script src="/javascript/edit-missed.js"></script>
+<script src="/javascript/delete-missed.js"></script>
+<script src="/javascript/comment.js"></script> --}}
